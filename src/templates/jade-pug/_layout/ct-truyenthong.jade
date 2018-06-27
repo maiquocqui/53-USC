@@ -1,0 +1,139 @@
+section.breadcrumbwrap.clearfix
+	.breadcrumbimg
+		img(src="img/breadcrumb/1.jpg", alt="")
+	.container
+		ol.breadcrumb(itemscope='', itemtype='http://schema.org/BreadcrumbList')
+			li(itemprop='itemListElement', itemscope='', itemtype='http://schema.org/ListItem')
+				a(itemscope='', itemtype='http://schema.org/Thing', itemprop='item', href='https://example.com/books')
+					span(itemprop='name') Trang chủ
+				meta(itemprop='position', content='1')
+			li(itemprop='itemListElement', itemscope='', itemtype='http://schema.org/ListItem')
+				a(itemscope='', itemtype='http://schema.org/Thing', itemprop='item', href='https://example.com/books/sciencefiction')
+					span(itemprop='name') Định cư mỹ
+				meta(itemprop='position', content='2')
+.container
+	.row.flex.flex-wrap
+		.col-xs-12.col-lg-9
+			section.news-page.clearfix
+				h1.pagetitle Truyền thông
+				.bloglist.clearfix
+					.newscol
+						figure
+							a.newsimg(href="#")
+								img(src="img/news/1.jpg", alt="")
+							figcaption
+								h2.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+								time ngày 28/3/2017
+								.newsdes Bảo lãnh anh chị em là diện bảo lãnh được nhiều người Việt quan tâm hiện nay vì họ rất mong muốn được cùng... 
+					.newscol
+						figure
+							a.newsimg(href="#")
+								img(src="img/news/2.jpg", alt="")
+							figcaption
+								h2.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+								time ngày 28/3/2017
+								.newsdes Bảo lãnh anh chị em là diện bảo lãnh được nhiều người Việt quan tâm hiện nay vì họ rất mong muốn được cùng... 
+					.newscol
+						figure
+							a.newsimg(href="#")
+								img(src="img/news/3.jpg", alt="")
+							figcaption
+								h2.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+								time ngày 28/3/2017
+								.newsdes Bảo lãnh anh chị em là diện bảo lãnh được nhiều người Việt quan tâm hiện nay vì họ rất mong muốn được cùng... 
+					.newscol
+						figure
+							a.newsimg(href="#")
+								img(src="img/news/4.jpg", alt="")
+							figcaption
+								h2.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+								time ngày 28/3/2017
+								.newsdes Bảo lãnh anh chị em là diện bảo lãnh được nhiều người Việt quan tâm hiện nay vì họ rất mong muốn được cùng... 
+					.newscol
+						figure
+							a.newsimg(href="#")
+								img(src="img/news/5.jpg", alt="")
+							figcaption
+								h2.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+								time ngày 28/3/2017
+								.newsdes Bảo lãnh anh chị em là diện bảo lãnh được nhiều người Việt quan tâm hiện nay vì họ rất mong muốn được cùng... 
+				.pages
+					ul.pagination
+						li 
+							a(href="#") 1
+						li.active
+							a(href="#") 2
+						li 
+							a(href="#") 3
+						li 
+							a(href="#") 4
+		.col-xs-12.col-lg-3
+			//- a.btn-backpage(href="#") Quay lại
+			nav.sidebar-category.cate2.clearfix
+				.othertitle Danh mục
+				ul 
+					li
+						a(href="#") Tin di trú
+					li 
+						a(href="#") Sự kiện
+					li.active
+						a(href="#") Các bản tin khác
+			nav.other-news.clearfix
+				.othertitle Bài viết mới
+				ul 
+					li.news
+						figure
+							.newsimg
+								img(src="img/news/1.jpg", alt="alt")
+							figcaption 
+								.newsname
+									a(href="#") Diện hôn phu - hôn thê xác suất đậu VISA sẽ cao hơn ?
+					li.news
+						figure
+							.newsimg
+								img(src="img/news/2.jpg", alt="alt")
+							figcaption 
+								.newsname
+									a(href="#") Đương đơn hồ sơ bảo lãnh hôn phu hôn thê phải làm gì?
+					li.news
+						figure
+							.newsimg
+								img(src="img/news/3.jpg", alt="alt")
+							figcaption 
+								.newsname
+									a(href="#") Điều cần tránh khi tạo bằng chứng cho hồ sơ hôn phu hôn thê
+					li.news
+						figure
+							.newsimg
+								img(src="img/news/4.jpg", alt="alt")
+							figcaption 
+								.newsname
+									a(href="#") Chứng minh mối quan hệ trong hồ sơ bảo lãnh hôn phu hôn thê
+					li.news
+						figure
+							.newsimg
+								img(src="img/news/5.jpg", alt="alt")
+							figcaption 
+								.newsname
+									a(href="#") Chứng minh khả năng tài chính để mở hồ sơ bảo lãnh
+
+			.send-nessage.clearfix
+				.module-title Đăng kí nhận bản tin
+				//- .form-group
+					label(for="") Họ và tên(*):
+					input(type="text")
+				//- .form-group
+					label(for="") Số điện thoại:
+					input(type="text")
+				.form-group
+					label(for="") Email:
+					input(type="text")
+				//- .form-group
+					label(for="") Nội dung câu hỏi:
+					textarea(name="", cols="30", rows="5")
+				input(type="submit", value="Đăng ký")
